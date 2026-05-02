@@ -45,7 +45,11 @@ export const auth = betterAuth({
     cookiePrefix: "sevasetu",
     useSecureCookies: process.env.NODE_ENV === "production",
   },
-  trustedOrigins: [baseURL],
+  trustedOrigins: [
+    baseURL,
+    "https://sevasetu.dmj.one",
+    "https://sevasetu-107722137045.asia-east1.run.app",
+  ],
 });
 
 export type Auth = typeof auth;
