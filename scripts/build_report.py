@@ -111,7 +111,7 @@ fields = [
     "Registration Number: GF202217661",
     "Course with Specialization: B.Tech (Cybersecurity)",
     "Semester: VIII (Final Semester)",
-    "Capstone Mentor: ____________________",
+    "Capstone Mentor: Ms. Maya Thapa",
 ]
 for f in fields:
     p = doc.add_paragraph(f)

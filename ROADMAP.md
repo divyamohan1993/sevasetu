@@ -6,7 +6,7 @@ Where the project is, where it goes next, and what comes after. Pairs with [`ARC
 
 ## Now - what is shipped
 
-The MLP is live at `https://sevasetu-107722137045.asia-east1.run.app` (custom domain `sevasetu.dmj.one` mapped, CNAME pending propagation). A reviewer with no setup gets a fully-seeded marketplace in under 7 seconds of cold start.
+The MLP is live at `https://sevasetu.dmj.one` (custom domain `sevasetu.dmj.one` mapped, CNAME pending propagation). A reviewer with no setup gets a fully-seeded marketplace in under 7 seconds of cold start.
 
 End-to-end flows that work today:
 

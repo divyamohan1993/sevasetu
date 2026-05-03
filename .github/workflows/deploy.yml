@@ -36,8 +36,8 @@ jobs:
       - name: Write env vars file
         run: |
           cat > /tmp/sevasetu-env.yaml <<'ENVEOF'
-          BETTER_AUTH_URL: "https://sevasetu-107722137045.asia-east1.run.app"
-          NEXT_PUBLIC_APP_URL: "https://sevasetu-107722137045.asia-east1.run.app"
+          BETTER_AUTH_URL: "https://sevasetu.dmj.one"
+          NEXT_PUBLIC_APP_URL: "https://sevasetu.dmj.one"
           NEXT_PUBLIC_APP_NAME: "SevaSetu"
           NEXT_PUBLIC_DEFAULT_LAT: "28.6139"
           NEXT_PUBLIC_DEFAULT_LNG: "77.2090"
@@ -67,7 +67,7 @@ jobs:
 
       - name: Smoke test
         env:
-          URL: https://sevasetu-107722137045.asia-east1.run.app
+          URL: https://sevasetu.dmj.one
         run: |
           for i in $(seq 1 30); do
             if curl -fsS "$URL/api/health" >/dev/null 2>&1; then

@@ -5,7 +5,7 @@
 **A bridge of trust between India's service workers and the people who need them.**
 
 [![Deploy to Cloud Run](https://github.com/divyamohan1993/sevasetu/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/divyamohan1993/sevasetu/actions/workflows/deploy.yml)
-[![Live on Cloud Run](https://img.shields.io/badge/live-asia--east1-4285F4?logo=googlecloud&logoColor=white)](https://sevasetu-107722137045.asia-east1.run.app)
+[![Live on Cloud Run](https://img.shields.io/badge/live-asia--east1-4285F4?logo=googlecloud&logoColor=white)](https://sevasetu.dmj.one)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Next.js 15](https://img.shields.io/badge/Next.js-15-000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![React 19](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)](https://react.dev)
@@ -30,9 +30,9 @@ SevaSetu (Sanskrit: *"the bridge of service"*) is a local-services marketplace f
 
 | | |
 |---|---|
-| Application | https://sevasetu-107722137045.asia-east1.run.app |
-| Pitch deck (25 slides, arrow-key navigation) | https://sevasetu-107722137045.asia-east1.run.app/pitch |
-| Health endpoint | https://sevasetu-107722137045.asia-east1.run.app/api/health |
+| Application | https://sevasetu.dmj.one |
+| Pitch deck (25 slides, arrow-key navigation) | https://sevasetu.dmj.one/pitch |
+| Health endpoint | https://sevasetu.dmj.one/api/health |
 | Custom domain | `sevasetu.dmj.one` (CNAME mapped, propagation pending) |
 
 **Demo accounts** (seeded automatically on every cold start):
@@ -331,7 +331,7 @@ GitHub: https://github.com/divyamohan1993 · Project repo: https://github.com/di
 - The OpenStreetMap community for the tile layer and the worldwide geocoding corpus.
 - The ONDC Network Team and the Beckn Open Collective for publishing the protocol contracts and the RET11 specification.
 - UIDAI, NPCI, NSDL/Protean and GSTN for documenting the algorithms (Verhoeff, BHIM deeplink, PAN entity types, Mod-36) that this project implements faithfully even where the network calls are simulated.
-- Faculty mentor and reviewers at Yogananda School of AI, Computers and Data Sciences, Shoolini University, for the guidance throughout the capstone.
+- **Ms. Maya Thapa** (capstone mentor) and the faculty of the Yogananda School of AI, Computers and Data Sciences, Shoolini University, for the guidance and design reviews throughout the capstone.
 
 ## Frequently asked questions
 

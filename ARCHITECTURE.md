@@ -2,7 +2,7 @@
 
 A deep technical reference for the SevaSetu codebase. Pairs with [`README.md`](./README.md) (project overview and quickstart), [`SECURITY.md`](./SECURITY.md) (threat model and controls), and [`ROADMAP.md`](./ROADMAP.md) (forward plan).
 
-> SevaSetu is a local services marketplace for Bharat. B.Tech Cybersecurity capstone by **Abhay Chandel** (Reg. GF202217661, Shoolini University). Live at `https://sevasetu-107722137045.asia-east1.run.app`. Custom domain `sevasetu.dmj.one` mapped (CNAME pending propagation). Source: `https://github.com/divyamohan1993/sevasetu`.
+> SevaSetu is a local services marketplace for Bharat. B.Tech Cybersecurity capstone by **Abhay Chandel** (Reg. GF202217661, Shoolini University). Live at `https://sevasetu.dmj.one`. Custom domain `sevasetu.dmj.one` mapped (CNAME pending propagation). Source: `https://github.com/divyamohan1993/sevasetu`.
 
 ---
 
@@ -227,7 +227,7 @@ cookieCache:  5 minutes    (avoids a DB read on every RSC for short bursts)
 trustedOrigins: [
   baseURL,                                              // http://localhost:3000 in dev
   "https://sevasetu.dmj.one",                           // custom domain
-  "https://sevasetu-107722137045.asia-east1.run.app",   // Cloud Run default
+  "https://sevasetu.dmj.one",   // Cloud Run default
 ]
 ```
 
@@ -645,7 +645,7 @@ Final image is ~250 MB. The `/drizzle` SQL and `/src/lib/db` TS files are copied
 
 ### Domain mapping
 
-- Default URL: `https://sevasetu-107722137045.asia-east1.run.app` (always live).
+- Default URL: `https://sevasetu.dmj.one` (always live).
 - Custom domain: `sevasetu.dmj.one` mapped via `gcloud run domain-mappings create` (CNAME to `ghs.googlehosted.com`, propagation pending). Cloud Run fronts the cert via Google-managed SSL.
 - `trustedOrigins` already lists both, so Better-Auth accepts session writes on either.
 

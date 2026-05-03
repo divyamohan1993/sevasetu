@@ -2,7 +2,7 @@
 
 SevaSetu is a B.Tech Cybersecurity capstone by **Abhay Chandel** (Reg. GF202217661, Shoolini University). Security is the project, not a feature bolted onto it. This document tells you what is in scope, how the system defends itself, and how to report a vulnerability without making it public first.
 
-The live deployment is `https://sevasetu-107722137045.asia-east1.run.app`. The source is `https://github.com/divyamohan1993/sevasetu` (MIT).
+The live deployment is `https://sevasetu.dmj.one`. The source is `https://github.com/divyamohan1993/sevasetu` (MIT).
 
 ---
 
@@ -22,7 +22,7 @@ If you have deployed a fork, please track `main` and rebase your patches; securi
 
 ## 2. Reporting a vulnerability
 
-**Email**: `security@dmj.one` (Divya Mohan, dmj.one — Abhay's mentor and project sponsor).
+**Email**: `security@dmj.one` (project disclosure inbox; routed to the maintainer).
 
 A PGP key has not yet been published. If you can encrypt the body with an out-of-band key the maintainer has shared with you, please do; otherwise plain email is acceptable but please avoid attaching live exploit traffic.
 
@@ -74,7 +74,7 @@ Bring your own test accounts; the demo seed accounts on the live URL are fair ga
 
 ### In scope
 
-- The live application at `https://sevasetu-107722137045.asia-east1.run.app` and any subpath under it.
+- The live application at `https://sevasetu.dmj.one` and any subpath under it.
 - The `main` branch of `https://github.com/divyamohan1993/sevasetu`.
 - The Cloud Run service that hosts the build.
 - The CI pipeline configuration files in `.github/`.
