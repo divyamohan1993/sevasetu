@@ -32,7 +32,7 @@ SevaSetu (Sanskrit: *"the bridge of service"*) is a local-services marketplace f
 | Application | https://sevasetu.dmj.one |
 | Pitch deck (25 slides, arrow-key navigation) | https://sevasetu.dmj.one/pitch |
 | Health endpoint | https://sevasetu.dmj.one/api/health |
-| Custom domain | `sevasetu.dmj.one` (CNAME mapped, propagation pending) |
+| Custom domain | `sevasetu.dmj.one` |
 
 **Demo accounts** (seeded automatically on every cold start):
 
